@@ -28,7 +28,7 @@ function Navbar() {
 
   return (
     <nav>
-      <Link to="/movies">
+      <Link to="/">
         <h1 style={{ color: "#fff" }}>Filmland</h1>
       </Link>
 
