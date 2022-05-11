@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/filmland/static/css/main.1af73d53.css",
+    "main.js": "/filmland/static/js/main.6b6b1604.js",
+    "index.html": "/filmland/index.html",
+    "main.1af73d53.css.map": "/filmland/static/css/main.1af73d53.css.map",
+    "main.6b6b1604.js.map": "/filmland/static/js/main.6b6b1604.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1af73d53.css",
+    "static/js/main.6b6b1604.js"
+  ]
+}
