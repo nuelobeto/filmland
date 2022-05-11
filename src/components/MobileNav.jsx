@@ -9,7 +9,7 @@ function MobileNav() {
 
   const handleLogout = () => {
     setUser(null);
-    navigate("/");
+    navigate("/auth");
   };
 
   return (
@@ -32,7 +32,7 @@ function MobileNav() {
             Logout
           </button>
         ) : (
-          <button style={{ margin: "0" }} onClick={() => navigate("/")}>
+          <button style={{ margin: "0" }} onClick={() => navigate("/auth")}>
             Log In
           </button>
         )}

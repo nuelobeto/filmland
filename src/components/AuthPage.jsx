@@ -22,7 +22,7 @@ function AuthPage() {
 
   useEffect(() => {
     if (user) {
-      navigate("/movies");
+      navigate("/");
     }
   }, [user, navigate]);
 

@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="app_container">
       <Routes>
-        <Route path="/" element={<AuthPage />} />
+        <Route path="auth" element={<AuthPage />} />
         <Route
-          path="movies"
+          path="/"
           element={
             <>
               <Header />

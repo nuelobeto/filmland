@@ -23,7 +23,7 @@ function Navbar() {
 
   const handleLogout = () => {
     setUser(null);
-    navigate("/");
+    navigate("/auth");
   };
 
   return (
@@ -56,7 +56,7 @@ function Navbar() {
               </>
             ) : (
               <>
-                <button onClick={() => navigate("/")}>Log In</button>
+                <button onClick={() => navigate("/auth")}>Log In</button>
               </>
             )}
           </div>
