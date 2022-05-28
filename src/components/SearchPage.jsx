@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
-import Movie from "./Movie";
+import SearchMovie from "./SearchMovie";
 
 function SearchPage() {
   const { searchedMovies } = useContext(GlobalContext);
@@ -8,7 +8,7 @@ function SearchPage() {
   return (
     <div className="movies">
       {searchedMovies.map((item) => (
-        <Movie key={item.id} data={item} />
+        <SearchMovie key={item.id} data={item} />
       ))}
     </div>
   );
